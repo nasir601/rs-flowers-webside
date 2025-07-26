@@ -72,7 +72,8 @@ header > section{
     text-align: center;
     padding: 10px;
 
-}
+} 
+
 .card-item{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -85,7 +86,7 @@ header > section{
     
 }
 
-.card-item,.card-description, .flower {
+.card-item,.card-description, .flower{
     max-width: 1140px;
     margin: 0 auto;
     width: 100%;
@@ -96,4 +97,14 @@ header > section{
 }
 section ul{
     width: 560px;
+}
+.footer-caption{
+    width: 100%;
+    margin: 0 auto;
+    gap: 50px;
+    justify-content: space-around;
+}
+.section{
+  margin-top: 100px;
+  gap: 5opx;
 }
